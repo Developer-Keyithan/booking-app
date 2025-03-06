@@ -65,7 +65,7 @@ const Navbar = ({ role, isLoggedIn, userId }: { role: string; isLoggedIn: boolea
     }, []);
 
     return (
-        <nav className="py-3 backdrop-blur-md z-50 shadow-md relative">
+        <nav className="py-3 backdrop-blur-md z-50 shadow-md sticky top-0 bg-[#fff9]">
             <div className="container mx-auto flex items-center justify-between">
                 <h1 className="bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text text-3xl font-semibold">
                     MegaFun
